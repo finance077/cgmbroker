@@ -166,7 +166,7 @@ export default function Hero() {
               {/* Floating Elements Animation */}
               <div className="relative z-20">
                 <Image
-                  src="/images/ayı.png"
+                  src="/images/logo.png"
                   alt="CGM Broker Bear"
                   width={800}
                   height={800}

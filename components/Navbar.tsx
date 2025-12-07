@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-12 h-12 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
               <Image
-                src="/images/ayı.png"
+                src="/images/logo.png"
                 alt="CGM Logo"
                 width={48}
                 height={48}
