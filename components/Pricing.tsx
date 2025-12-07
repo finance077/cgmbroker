@@ -53,7 +53,7 @@ export default function Pricing() {
               {/* Icon */}
               <div className="relative z-10 w-24 h-24 mx-auto mb-6">
                 <Image
-                  src="/images/ayı.png"
+                  src="/images/logo.png"
                   alt="CGM Broker Bear"
                   width={800}
                   height={800}

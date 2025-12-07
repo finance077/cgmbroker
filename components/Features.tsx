@@ -156,41 +156,7 @@ export default function Features() {
                     </div>
                  )}
 
-                 {/* Tickers Visual for BIST */}
-                 {feature.title.includes('BİST') && (
-                    <div className="absolute right-6 bottom-6 w-56 bg-black/60 backdrop-blur-md rounded-xl border border-[#FFD60A]/20 p-4 opacity-60 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 shadow-2xl">
-                      <div className="flex justify-between items-center mb-3 pb-2 border-b border-white/10">
-                        <div className="flex items-center gap-2">
-                          <div className="w-2 h-2 rounded-full bg-[#FFD60A] animate-pulse"></div>
-                          <span className="text-[#FFD60A] font-bold text-xs tracking-wider">BIST 100</span>
-                        </div>
-                        <span className="text-green-400 text-xs font-mono font-bold">+1.45%</span>
-                      </div>
-                      <div className="space-y-2.5">
-                        <div className="flex justify-between items-center">
-                          <span className="text-white text-xs font-medium">THYAO</span>
-                          <div className="flex items-center gap-2">
-                            <span className="text-white/60 text-[10px]">280.50</span>
-                            <span className="text-green-400 text-xs font-mono bg-green-400/10 px-1.5 py-0.5 rounded">+2.1%</span>
-                          </div>
-                        </div>
-                        <div className="flex justify-between items-center">
-                          <span className="text-white text-xs font-medium">ASELS</span>
-                          <div className="flex items-center gap-2">
-                            <span className="text-white/60 text-[10px]">42.80</span>
-                            <span className="text-green-400 text-xs font-mono bg-green-400/10 px-1.5 py-0.5 rounded">+1.8%</span>
-                          </div>
-                        </div>
-                        <div className="flex justify-between items-center">
-                          <span className="text-white text-xs font-medium">AKBNK</span>
-                          <div className="flex items-center gap-2">
-                            <span className="text-white/60 text-[10px]">38.12</span>
-                            <span className="text-red-400 text-xs font-mono bg-red-400/10 px-1.5 py-0.5 rounded">-0.5%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                 )}
+
 
                  {/* Code Visual for Bots */}
                  {feature.title === 'Trading Botları' && (
