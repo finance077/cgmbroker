@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "CGM Trade - Brokerlar İçin White-Label Trading Platformu",
   description: "Kendi markalı Forex, CFD ve Kripto trading platformunuzu günler içinde başlatın. Gelişmiş trading motoru, admin paneli ve mobil uygulamalar ile eksiksiz çözüm.",
   keywords: "white-label trading, forex platformu, cfd trading, kripto trading, trading yazılımı, brokerlik çözümü, trading platform",
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: "CGM Trade - Brokerlar İçin White-Label Trading Platformu",
     description: "Kendi markalı Forex, CFD ve Kripto trading platformunuzu günler içinde başlatın.",
