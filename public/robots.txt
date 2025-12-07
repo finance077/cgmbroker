@@ -1,0 +1,6 @@
+# Tüm robotlara izin ver
+User-agent: *
+Allow: /
+
+# Sitemap konumu
+Sitemap: https://cgmbroker.com/sitemap.xml
